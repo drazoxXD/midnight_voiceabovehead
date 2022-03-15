@@ -10,8 +10,6 @@ for i = 0, 255 do
 			headDisplayId = CreateFakeMpGamerTag(iPed, "", false, false, "", false )
 			isTalking = false
 			visable = false
-			driver = false
-			IdPlayer = ""
 			if NetworkIsPlayerTalking(i) then
 				isTalking = true
 			end
